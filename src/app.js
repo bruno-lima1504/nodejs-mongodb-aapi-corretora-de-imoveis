@@ -9,7 +9,7 @@ class App{
     constructor(){
         this.server = express();
 
-        mongoose.connect('mongodb+srv://brunodevhouse:devhouse123@devhousebsl.ijw6djg.mongodb.net/devhouse?retryWrites=true&w=majority');
+        mongoose.connect('mongodb+srv://brunodevhouse:<password>@devhousebsl.ijw6djg.mongodb.net/devhouse?retryWrites=true&w=majority');
 
         this.middlewares();
         this.routes();
